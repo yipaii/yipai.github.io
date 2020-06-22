@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style type="text/css">
+        body {
+            background-color: green
+        }
+
+        p {
+            color: blue
+        }
+    </style>
+</head>
+
+<body>
+    <div id="replace" style="color: black;">
+        <p></p>hey yo
+    </div>
+    <div id="container" style="width:500px">
+
+        <div id="header" style="background-color:#FFA500;">
+            <h1 style="margin-bottom:0;">Rick&Morty</h1>
+        </div>
+
+        <div id="menu" style="background-color:#FFD700;height:200px;width:150px;float:left;">
+            <b>Adventures</b><br>
+            Poopybutthole<br>
+            Atlantis<br>
+            Trump's house</div>
+
+        <div id="content" style="background-color:#EEEEEE;height:200px;width:350px;float:left;">
+            Never invite Summer</div>
+
+        <div id="footer" style="background-color:#FFA500;clear:both;text-align:center;">
+            copyright © yipai.com</div>
+
+    </div>
+    <form>
+        Your name: <input type="text" name="firstname"><br>
+    </form>
+
+    <script>
+        function shutup() {
+            document.getElementById("replace").innerHTML = "shut the fuck up!"
+        }
+    </script>
+
+    <button type="button" onclick="shutup()">then what</button>
+
+</body>
+
+</html>
